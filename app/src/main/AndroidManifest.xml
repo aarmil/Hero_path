@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.demo.heropath">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HeroPath">
+        <activity android:name=".ActivityRetire"></activity>
+        <activity android:name=".PrincessActivity" />
+        <activity android:name=".TavernActivity" />
+        <activity android:name=".DieActivity" />
+        <activity android:name=".Dungeon" />
+        <activity android:name=".CityStreet" />
+        <activity android:name=".StartingArea" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,487 @@
+<resources>
+    <string name="app_name">Hero Path</string>
+    <string name="choose_your_hero">Choose your hero!</string>
+    <string name="hero_name_hint">Enter your hero name</string>
+    <string name="start_adventure">Start the adventure</string>
+
+    <string name="choose_next_step">Choose what to do, Mighty Hero!</string>
+    <string name="go_to_town">Walk the city streets</string>
+    <string name="go_to_dungeon">Go to creepy dungeon</string>
+    <string name="go_to_tavern">Visit tavern</string>
+    <string name="save_princess">Save the princess</string>
+    <string name="retire">I should retire</string>
+    <string name="clothes_in_blood">Your clothes are in blood after battle.</string>
+    <string name="have_treasures">You\'re rich hero cause of treasures.</string>
+    <string name="hero_drunk">You\'re drunk as hell.</string>
+    <string name="hero_princess">Princess is by your side.</string>
+
+    <string name="princess_dead_for_button">Princess is dead</string>
+    <string name="princess_is_yours_button">Princess is already yours</string>
+    <string name="princess_refused_you_button">Princess refused you</string>
+    <string name="treasure_is_yours_button">You already have treasure</string>
+    <string name="princess_forbid">Princess forbids you</string>
+
+    <string name="retirement_descreption">You decided to end your hero days and retire. Here is what awaits you.</string>
+
+
+    <string name="street_descr">You are walking down the central street of Ulugal, capital city of the Aurilia Kingdom.
+    Building on both sides of the street are literal architectural wonders. People seem small in comparison, but some women
+        looks even more marvelous than millennium old structures. Do you want to walk a little more?
+    </string>
+    <string name="button_continue">Walk a bit more</string>
+    <string name="button_return">Return</string>
+
+    <string name="dungeon_description">Dungeon is truly creepy. You hear moans of terrible creatures up ahead. But you are a Hero, and treasures await.</string>
+    <string name="no_corridor">No path in this direction.</string>
+    <string name="button_forward">Forward!</string>
+    <string name="button_back">Back</string>
+    <string name="button_left">Go left</string>
+    <string name="button_right">Go right</string>
+    <string name="dwarf_monsters">Monsters pity you and leave alive.</string>
+    <string name="dwarf_traps">You are too short for spikes to reach you.</string>
+    <string name="death">You die!</string>
+    <string name="start_again">Start again?</string>
+
+    <string name="tavern_description">It\'s a drinking contest. Push button to drink!</string>
+    <string name="tavern_timer">30</string>
+    <string name="tavern_drink">Drink!</string>
+    <string name="tavern_try_again">Try again</string>
+
+    <string name="tavern_class_dependencies_mage">You\'ve never drunk a pint in your life. What were you thinking?
+    There is a spell that can save a man from intoxication, but you\'re too drunk to remember it. You are dead.</string>
+    <string name="tavern_loose">You are not fast enough. You loose!</string>
+    <string name="tavern_race_dependencies_elf">Elves have many natural talents but resistance to human alcohol is not one of them. You lose.</string>
+    <string name="tavern_race_dependencies_dwarf">You\'re dwarf natural in drinking. You still sober enough to see how your opponent falls under the table. You win!</string>
+    <string name="tavern_win">You win, the audience applaud you. Today you are proud of yourself. Let\'s not think of tomorrow morning.</string>
+    <string name="princess_description">The time has come to save the princess. You enter the tower of evil magister.</string>
+
+    <string-array name="choose_race">
+        <item>Human</item>
+        <item>Elf</item>
+        <item>Dwarf</item>
+    </string-array>
+
+    <string-array name="choose_class">
+        <item>Warrior</item>
+        <item>Wizard</item>
+        <item>Thief</item>
+    </string-array>
+
+    <string-array name="race_description">
+        <item>You\'re simple human, the most common race of Aurilon.</item>
+        <item>You\'re Elf, beautiful, wise and cunning.</item>
+        <item>You\'re dwarf, short but sturdy. Your homeland is deep underground.</item>
+    </string-array>
+
+    <string-array name="class_description">
+        <item>People know you as noble warrior, protector of common folks.</item>
+        <item>People know you as stubborn wizard, your only friends are dusty books. Sorry.</item>
+        <item>People know you as cunning thief, that is the most profitable profession of Aurilon.</item>
+    </string-array>
+
+    <string-array name="street_variants">
+        <item>You see sophisticated human lady dressed in a long dress with a low neckline.
+        You fall in love and try to talk with her.</item>
+        <item>You see the Palace of Yawning Prince. Paralyzed by its beauty you did not see
+            a sneaky thief. 0 coins in your possession.</item>
+        <item>Street gang ahead. The fight seems unavoidable.</item>
+        <item>You are a bit tired but the garden ahead is so beautifull, so you walk a bit more.</item>
+        <item>The hero is completely tired and want to pee.</item>
+    </string-array>
+
+    <string-array name="race_dependencies_lady">
+        <item> She kisses you and say goodbye. You will never see her again. </item>
+        <item>\"Sorry. Elves are too wild for my taste\".</item>
+        <item>\"Meh. Go talk with some ugly dwarf woman, you midget.\"</item>
+    </string-array>
+
+    <string-array name="class_dependencies_gang">
+        <item>But they are no match for your sword of legends. You leave behind cold bodies,
+        severed heads and limbs, blood is all over you.</item>
+        <item>But your best friend is fireball. One cast - seven burned bodies, and your clothes are clean.</item>
+        <item>But you sneak past them with ease.</item>
+    </string-array>
+
+    <string-array name="dungeon_rooms">
+        <item>It is starting area.</item>
+        <item>The room is full of monsters!</item>
+        <item>Suspiciously quiet room.</item>
+        <item>It\'s a trap! Awful spikes strikes at you from all sides.</item>
+        <item>There is big four-headed albino dog in this room. It stares at you in hunger.</item>
+        <item>Massive room with corridors at all sides.</item>
+        <item>Lustful succubus waiting to kiss you.</item>
+        <item>There is no floor in this room and you fall to lava.</item>
+        <item>Treasure. At last.</item>
+    </string-array>
+
+    <string-array name="class_dependencies_monsters">
+        <item>Whirlwind attack by you sword kills them. You are covered in blood.</item>
+        <item>Lighting storm attack makes a day.</item>
+        <item>You become invisible.</item>
+    </string-array>
+
+    <string-array name="class_dependencies_trap">
+        <item>You block spikes by enchanted shield.</item>
+        <item>You protect yourself with magic sphere.</item>
+        <item>You avoid traps by dancing.</item>
+    </string-array>
+
+    <string-array name="race_dependencies_dog">
+        <item>Poor creature, you kill it with mercy.</item>
+        <item>You charm the creature with elf natural charisma.</item>
+        <item>You\'re dwarf. It laughs at you and chokes to death on its own saliva.</item>
+    </string-array>
+
+    <string-array name="race_dependencies_succubus">
+        <item>Succubus kiss kills you.</item>
+        <item>As an elf you resist her kiss. She flee in fear.</item>
+        <item>You\'re dwarf. She stares at you a moment and flee in disgust.</item>
+    </string-array>
+
+    <string-array name="corridors">
+        <item>There is corridor on the left.</item>
+        <item>There is corridor on the right.</item>
+        <item>There is corridor behind you.</item>
+        <item>There is corridor towards you</item>
+        <item>There are corridors on the left and on the right.</item>
+        <item>There are corridors on the right and towards you.</item>
+        <item>There are corridors towards and behind you.</item>
+        <item>There are corridors on the left and towards you.</item>
+        <item>There are corridors on the left and behind you.</item>
+        <item>There are corridors on the right, towards and behind you.</item>
+        <item>There are corridors on the left, towards and behind you.</item>
+        <item>There are corridors on the right, on the left and towards you.</item>
+        <item>There are corridors on the right, on the left and behind you.</item>
+        <item>There are corridors on all sides.</item>
+        <item>There are corridors on the right and behind you.</item>
+    </string-array>
+
+    <string-array name="drink_results">
+        <item>You start with cheap wine. It tastes surprisingly good, and you don\'t feel drunk yet.</item>
+        <item>Some kind of sugared cocktail. Pussy drinking, easy contest.</item>
+        <item>Stakes are higher now. It is rum. Does they think you are some kind of pirate?</item>
+        <item>Time is for whisky. Good one, but you feel a little bit dizzy.</item>
+        <item>Here comes a brandy. You are sober enough to enjoy its flavour.</item>
+        <item>Vodka makes you regret starting the contest. Your opponent is laughing, the crowd is making dirty jokes.</item>
+        <item>Another vodka. Year, the author is a pussy not experienced in drinking, or this tavern has very limited stock.</item>
+        <item>Beer. At the beginning you welcome it as a relief, oasis in a desert full of intoxicants.
+            But when room begins to float you remember what people say about mixing strong and soft drinks.</item>
+        <item>You drink something, the tastes eludes you. Reality eludes you.</item>
+        <item>The final drink, is it some kind of contest?</item>
+    </string-array>
+
+    <string-array name="floor_description">
+        <item>First floor is very welcoming. You enter some kind of reception room with comfortable sofas and tables full of sneaks.
+        Very tall butler is welcoming you: \"Sir, how may I be of service?\".</item>
+        <item>The purpose of the second floor is obvious. It is relaxation zone for the magister and his friends.
+        You can see a swimming pool with naked illusionary ladies and sparring zone full of exotic weapons and automatons.</item>
+        <item>The Third floor is full of locked rooms, the one with the golden door is especially tempting. You can hear screams from the room
+            that is not locked.</item>
+        <item>There is library on the left and alchemical laboratory on the right.</item>
+        <item>Finally, you enter the bedroom, you see the magister proposing marriage to princess. He is old and ghoulish.
+        She is young and beautiful. The princess is hesitating.</item>
+    </string-array>
+
+    <string-array name="choices_first_floor">
+        <item>You\'re very hungry. Eat sneaks.</item>
+        <item>Kill the butler</item>
+        <item>Go to the next floor</item>
+        <item>Persuade the butler that you\'re the magister\'s business partner</item>
+    </string-array>
+
+    <string-array name="results_first_floor">
+        <item>The food is poisoned. Bloody magister! You are dying.</item>
+        <item>You cut off his head with sword. Blood is all over you.</item>
+        <item>You smash his head with staff.</item>
+        <item>You impale him with your dagger. Blood is all over you.</item>
+        <item>He is already dead. Stop this madness!</item>
+        <item>The butler says: \"You cannot go any further"\</item>
+        <item>\"It is your life, go on if you want to lose it\"</item>
+        <item>You are too drunk to say something clever.</item>
+        <item>You\'re in blood, nobody will believe a word.</item>
+        <item>You convince him with money from your treasure.</item>
+        <item>You were not able to convince him. But it seems he is afraid to actually stop you.</item>
+    </string-array>
+
+    <string-array name="choices_second_floor">
+        <item>Go swimming</item>
+        <item>Go to the sparring zone</item>
+        <item>Go to the next floor</item>
+        <item>Take the greatsword</item>
+        <item>Take the smoking bomb</item>
+    </string-array>
+
+    <string-array name="results_second_floor">
+        <item>You swim with naked ladies. Then you wash your clothes and relax in sofas waiting for it to dry.</item>
+        <item>You spar with automatons and see the enchanted Greatsword of Legends.</item>
+        <item>You spar with automatons but they are magic immune. They beat you to death.</item>
+        <item>You spar with automatons and see the useful smoking bomb.</item>
+        <item>That is the best sword you\'ve ever seen. Your power level is increased.</item>
+        <item>You love bombs. Your power level is increased.</item>
+        <item>You spar a little more</item>
+    </string-array>
+
+    <string-array name="choices_third_floor">
+        <item>Try to open golden door</item>
+        <item>Check who is screaming</item>
+        <item>Go to the next floor</item>
+        <item>Use lockpicks</item>
+        <item>Smash it</item>
+        <item>Take the amulet</item>
+        <item>The golden room is empty</item>
+        <item>Use whirlwind attack</item>
+        <item>Use fireball</item>
+        <item>Lock the door</item>
+        <item>The room is empty</item>
+    </string-array>
+
+    <string-array name="results_third_floor">
+        <item>The door is closed you can try to open it with lockpicks or smash it.</item>
+        <item>You\'re not drunk enough to smash it.</item>
+        <item>There is a spell that can open locks, it exists in another fantasy universe.</item>
+        <item>The door is open. There is Amulet of Unimaginable Power.</item>
+        <item>You take the amulet, it increases your power level and sadly make you sober.</item>
+        <item>The screaming mutant rats attack you.</item>
+        <item>Your power level is not enough to kill all of them with one whirlwind attack. One of the rats
+        eat your brain. You die!</item>
+        <item>You manage to kill all rats with one whirlwind attack. You are lucky today.</item>
+        <item>\"Fireball is the most useful spell you will ever learn.\" - said one of your professors. It always saves your skin.</item>
+        <item>Your quickly manage to lock the door with lockpicks. You never thought that skill of closing doors may be so useful.</item>
+    </string-array>
+
+    <string-array name="choices_fourth_floor">
+        <item>Visit library</item>
+        <item>Go to the laboratory</item>
+        <item>Go to the next floor</item>
+        <item>Go deeper into the library</item>
+        <item>Drink yellow potion</item>
+        <item>Drink blue potion</item>
+        <item>Return to the main hall</item>
+        <item>Block attack with a shield</item>
+        <item>Use whirlwind attack</item>
+        <item>Become a berserk</item>
+        <item>Use magic shield</item>
+        <item>Use shock wave</item>
+        <item>Use brain parasites</item>
+        <item>Become invisible</item>
+        <item>Kill them one by one from shadows</item>
+        <item>Distract them with rock.</item>
+    </string-array>
+
+    <string-array name="results_fourth_floor">
+        <item>You are warrior, you smash things not read or teach them. But sometimes it is hard to admit that you\'ve never even learned to read.</item>
+        <item>Waste of time!</item>
+        <item>From books you learn that the magister likes kittens, there\'re hundreds of books dedicated to kittens.</item>
+        <item>Your intuition and wizard class choice allows you to look deeper into the library. You find the Scroll of Kittenball.
+        You\'re truly afraid of what it can do. The power level is increased.</item>
+        <item>You read another book about kittens, it deepens your knowledge of the universal laws.</item>
+        <item>The smell of sulfur, the air is green, you see two bottles - yellow and blue. There is a painting of the yellow kitten on the wall.</item>
+        <item>You\'re utterly drunk. You talk a little with the yellow kitten and return to the main hall.</item>
+        <item>Your power level is increased.</item>
+        <item>You watch the painting of the yellow kitten.</item>
+        <item>Shadows surround you, its ninjas, protect yourself.</item>
+        <item>I said, \"Protect yourself\". You didn\'t listen and now your head is falling down the stairs.</item>
+        <item>You survived the attack, strike back!</item>
+        <item>Boring warrior, why always whirlwind attack? Next time be original. Ninjas run in fear.</item>
+        <item>It is a massacre. Blood is all over you. You rip out the heart of fallen enemy and eat it.</item>
+        <item>Ninjas run in shock.</item>
+        <item>You conjure parasites in ninjas brains. They are braindead now.</item>
+        <item>Ninjas split up to find you. They search for you everywhere using some stupid pattern.
+            The AI in this game is truly bad or you\'re just better ninja.</item>
+        <item>You throw the rock to the library. Surprisingly, they follow it, you lock the room behind them.</item>
+        <item>You locked the door to the library. Ninjas are quiet, guess they like kittens too.</item>
+    </string-array>
+
+    <string-array name="choices_fifth_floor">
+        <item>Be persuasive</item>
+        <item>Just kill him</item>
+        <item>Propose a duel</item>
+        <item>Leave in depression</item>
+        <item>Go crying</item>
+        <item>Run in embarrassment</item>
+        <item>Propose marriage</item>
+        <item>Propose sex without obligation</item>
+        <item>Stay single, stay virgin</item>
+        <item>Sometimes it happens</item>
+        <item>Use the artifact</item>
+        <item>Wait for the attack and block</item>
+        <item>Strike</item>
+        <item>Proudly walk home</item>
+    </string-array>
+
+    <string-array name="results_fifth_floor">
+        <item>They are both laughing at you. Of course, all they see is a shrimp with funny beard. All your dreams are crushed in an instance.
+            The princess is in another castle. </item>
+        <item>Princess screams looking at you. You wander why. The magister is saying: \"I\'ll protect you from
+        this monster, my love!\" You realize that your clothes are soaked in blood, you look truly devilish. The magister uses magic shield.</item>
+        <item>You\'re too drunk to say something logical.</item>
+        <item>You say that love is a burden and it is better to stay lonely till the end of your days. The magister doesn\'t believe you.</item>
+        <item>He is bored by your countless attempts and impressed by your determination and stupidity. \"She is all yours\", he says.</item>
+        <item>You tell the magister that he is a coward. Instead of conquering his fear and getting a real kitten he find some
+        cheap surrogate called woman. The magister is crying. \"She is all yours\", he says.</item>
+        <item>The magister uses magic shield. But your power is truly unimaginable. You strike with magic sword and protection sphere surrounding the magister is blown to light particles.
+            The magister is dead. Blood is everywhere. The princess screams in terror, then jumps out the window.</item>
+        <item>You throw smoking bomb. You throw it with such power that the magister\'s head pops.
+            Brains are all over the princess evening dress. She screams in terror, then jumps out the window.</item>
+        <item>You use kittenball. The living mass of interconnected kitten upper bodies appears in front of you
+        and start moving toward the magister. You glimpse happiness at his face. \"What a glorious death!\" - he shouts. The ball of kittens eats your archenemy alive,
+            devour the princess. And then you hear lovely purr, you are lucky that the creature is well-fed.</item>
+        <item>Your surprise attack failed. The magister uses magic shield. \"Let it be the duel\", - tha magister says. \"How very noble!\" - the princess laughs.</item>
+        <item>\"How very noble!\" - the princess laughs. The magister uses magic shield.</item>
+        <item>You don\'t have any artifact.</item>
+        <item>The Greatsword of Legends cuts the magic sphere like butter. The magister is dead. The princess seems ecstatic.</item>
+        <item>You use the smoke bomb to become invisible. The time passes and the magister starts to think that you
+        retreated. He drops the shield. And then you strike. The magister is dead. The princess seems ecstatic.</item>
+        <item>You block the lighting ball with magic shield of your own. The magister shield is dropped.</item>
+        <item>As a warrior you cannot block magical attacks. But your constitution allows you to survive first lighting strike. The magister shield is dropped.</item>
+        <item>You evade the lighting strike. The magister shield is dropped.</item>
+        <item>You are not experience enough too use the artifact properly. Magic shield blocks your attack with the Sword of Legends.
+        The burning hands attack of your enemy outright kills you.</item>
+        <item>You are not experience enough too use the artifact properly. You throw the smoking bomb, it ricochets back smashing your head. You are dead.</item>
+        <item>Due to your hesitation the magister has enough time to cast mightier spell. Brain parasites make you braindead.</item>
+        <item>You impale the magister heart with the Sword of Legends. The princess seems ecstatic.</item>
+        <item>You throw smoking bomb right into the magister mouth. He suffocates from smoke. The princess seems ecstatic.</item>
+        <item>Your sword ricochet from the magic sphere surrounding the magister and cut your head off. You die.</item>
+        <item>You cannot penetrate the shield. You lose the momentum and magister strikes you with ice spikes. You die.</item>
+        <item>You bush the magister with a shield, and bush and bush and bush until he is dead. The princess seems ecstatic.</item>
+        <item>You levitate the magister out the window. He screams while falling. The princess seems ecstatic.</item>
+        <item>You throw several daggers right into the magister forehead. He is dead, the princess seems ecstatic.</item>
+        <item>\"Sorry, alcoholics are not in my taste. You should leave now,\" - she says. To hell with it! You don\'t even sure you\'ll remember this day.</item>
+        <item>\"You\'re bloody monster!\" - she runs in terror.</item>
+        <item>That was one of your best adventures. But to connect your life with woman? Maybe after another castle.</item>
+        <item>\"I heard you\'re pretty rich. So my answer is yes, I wil be your wife!\" - princess says.</item>
+        <item>\"You don\'t rich enough for me. Sorry, not interested. Walk away, adventuring filth\".</item>
+        <item>Princess moans in passion, too excited to refuse. You are champion, and its your hour of triumph.</item>
+        <item>\"Sorry, honey. I\'m not this type of woman\".</item>
+        <item>She is too tired to continue.</item>
+    </string-array>
+
+    <string-array name="retirement_results_human">
+        <item>You return to the farmhouse near human capital city where you grew up intended to have a peaceful life.</item>
+        <item>You\'ve been an adventurer all of your life and never had a decent job. So your pension is minimum.
+            You don\'t even have money to buy seeds and sprouts.</item>
+        <item>So, you start beating your neighbours cause you will always be a warrior in your soul.
+        First you loot seeds from them, but you do not know how to farm. So you continue beating them to ensure they will work for you.
+        After three years of farming you create some kind of rogue kingdom based on slavery. The true king of the realm finally notices it and send an army to
+        suppress the rebellion. You flee in terror but the king\'s agents are everywhere leaving you the only option - there is an unexplored continent to the east,
+            the land of barbarians, monsters and new weapons. The retirement is postponed, adventures continue.</item>
+        <item>So, you start charming your neighbours by some fool magic. They idolize you, give free food and women. After three years of such practice
+            your cult spreads. It now opposes the official religion of the human realm - octopusism. The octopsarch of the realm finally notices it and send inquisitors to
+        wipe the cult. You flee in terror but the octopsarch\'s agents are everywhere leaving you the only option - there is an unexplored continent to the east,
+            the land of barbarians, monsters and new spells. The retirement is postponed, adventures continue.</item>
+        <item>So, you start stealing from your neighbours cause you will always be a thief.
+        First you loot seeds from them, but you do not know how to farm. So you continue stealing - you steal food, gold, homes. They have no options left than to become your apprentices.
+        The thieving guild is born. After three years of growth it now terrorizes the human realm. The militia of the realm finally notices it and send guards to
+        finish the guild. You flee in terror but the guards are everywhere leaving you the only option - there is an unexplored continent to the east,
+            the land of barbarians, monsters and unexplored wealth. The retirement is postponed, adventures continue.</item>
+        <item>Your name is </item>
+        <item>and you are a drunkard. You spent all of your time at the local tavern surrounded by like-minded people. It is good till it lasts.</item>
+        <item>But you soon spend all your money. Too drunk and depressed about life you die quietly in a gully.</item>
+        <item>And it lasts and it lasts. Cause you\'re rich, boy! And people in the tavern like you, you are their generous god
+            who buy free beer every morning and every evening. Unfortunately, one day your heart just stops too drunk to go on.</item>
+        <item>Unfortunately, there is nothing more dangerous than a drunk wizard. One day the tavern explodes and demon army pours from its ashes.
+        The demon lord make you eternally sober as a reward for opening the portal to his domain. What a course! To become drunk again you need to kill the bastard.
+        The new adventure awaits.</item>
+        <item>And you are truly rich! Your farm prospers because of paid labour. And you don\'t need to work another day. Good food, steady flow of wine,
+        beautiful maidens. Your armor and weapons soon become covered with dust, and you don\'t recognize yourself in the mirror anymore.
+        People around you talk about an unexplored continent to the east. But you decide to leave adventuring to the young and bold,
+            you are too fat anyway. Sometimes it makes you sad.</item>
+        <item>And you are truly rich! You develop the method of growing books from garden-beds. All you need is to plant the old book to soil.
+        And a dozen new books grow from it, usually a content of a new book copies the content of the old. But sometimes a miracle happens, and something
+        new is born. Proud of yourself, you abandon your robe and staff, and you don\'t recognize yourself in the mirror anymore.
+        People around you talk about an unexplored continent to the east. But you decide to leave adventuring to the young and bold,
+            you are too fat anyway. Sometimes it makes you sad.</item>
+        <item>And you are truly rich! You turn your farm into the rehabilitation facility for criminals where they earn their place in society through hard labour.
+        You continue to steal from time to time but less and less. Proud of yourself, you abandon your daggers, and you don\'t recognize yourself in the mirror anymore.
+        People around you talk about an unexplored continent to the east. But you decide to leave adventuring to the young and bold,
+            you are too fat anyway. Sometimes it makes you sad.</item>
+        <item>It is supposed to be the best ending, you are rich and the princess is by your side. Delusional fool.
+        The princess is very capricious, you buy her expensive jewelery and clothes. But it is never enough, she hates your farm -
+        you move to the city, she hates one house - you buy another. But you love her cause she is a hard earn trophy.
+        Unfortunately, after five years you run out of money. She soon runs from you to some distant castle. You are broken at first.
+        But people around you talk about an unexplored continent to the east. You decide to become an adventurer once more. The new land awaits!</item>
+        <item>Sometimes you remember the princess horrible death. It haunts you till the end of your days.</item>
+        <item>One more thing, there is lonely kittenball in this world searching for you.</item>
+    </string-array>
+
+    <string-array name="retirement_results_elf">
+        <item>You return to the elven woods where you grew up intended to have a peaceful life.</item>
+        <item>You\'ve been an adventurer all of your life and elven people are very conservative folks. Your neighbours hates you.
+            They call you \"half elf\" and refuse to sell food and clothes.</item>
+        <item>So, you start beating your neighbours cause you will always be a warrior in your soul.
+        You loot food from them and clothes. But they hate you even more. So you continue beating them to ensure their respect.
+        After three years of such a behaviour everyone in the woods wants you dead. Through sacrifice of all dears in the wood they conduct bloody
+            ritual conjuring mighty treewalkers and wyverns. You flee in terror but the wyverns are very persistent creatures,
+            it leaves you the only option - there is an unexplored continent to the east, the land of barbarians, monsters and new weapons.
+            The retirement is postponed, adventures continue.</item>
+        <item>So, you start charming your neighbours by some fool magic. They idolize you, give free food and women. After three years of such practice
+        your cult spreads transcending the woods. It now opposes the official religion of the human realm - octopusism.
+        The octopsarch of the realm finally notices it and send the crusade to burn the woods. It is the genocide, an entire race wiped out.
+        You flee in terror but the octopsarch\'s agents are everywhere leaving you the only option - there is an unexplored continent to the east,
+        the land of barbarians, monsters and new spells. The retirement is postponed, adventures continue.</item>
+        <item>So, you start stealing from your neighbours cause you will always be a thief.
+        You loot food and clothes from them, but its never enough for such kleptomaniac as you. So you continue stealing -
+        you steal women, gold, home-trees. You become richer and richer, the elven nation becomes poorer and more desperate.
+        Some kind of dictator rises to power. Strict curfew is imposed, your fellow colleagues are executed before your eyes.
+        You flee in terror but the dictator, your creation, starts the war against the world. There is nowhere to hide which leaves you the only option
+        - there is an unexplored continent to the east, the land of barbarians, monsters and unexplored wealth. The retirement is postponed, adventures continue.</item>
+        <item>Your name is </item>
+        <item>and you are a drunkard. You return to the elven woods where you grew up and spent all of your time draining the juice from the mother tree.
+        Her juice is the only alcohol in the woods.</item>
+        <item>Soon mother tree dies from the juice loss. You are too drunk to feel any pain when fellow elves execute you.</item>
+        <item>No amount of money could have saved you. You are too drunk to feel any pain when fellow elves execute you.</item>
+        <item>Unfortunately, there is nothing more dangerous than a drunk wizard. One day the mother tree explodes and demon army pours from its ashes.
+        The demon lord make you eternally sober as a reward for opening the portal to his domain. What a course! To become drunk again you need to kill the bastard.
+        The new adventure awaits.</item>
+        <item>And you are truly rich! Unfortunately the human money is nothing for primitive elven economy. Foreign exchange is not developed here. You move to the
+        human realm and start the Warrior Guild. It becomes the place of growth and nourishment for young adventurers. And when rumors about an unexplored continent
+        to the east reaches the guild halls you decide to leave the excitement of exploring it to young members of the guild. Sometimes it makes you sad.
+        But you are also so proud of your wards.</item>
+        <item>And you are truly rich! Unfortunately the human money is nothing for primitive elven economy. Foreign exchange is not developed here. You move to the
+        human realm and start the Wizard Guild. It becomes the place of growth, nourishment and knowledge for young adventurers. And when rumors about an unexplored continent
+        to the east reaches the guild halls you decide to leave the excitement of exploring its mysteries to young members of the guild. Sometimes it makes you sad.
+        But you are also so proud of your wards.</item>
+        <item>And you are truly rich! Unfortunately the human money is nothing for primitive elven economy. Foreign exchange is not developed here. You move to the
+        human realm and start the Thieving Guild. It becomes the place of growth, nourishment and enrichment for young adventurers. And when rumors about an unexplored continent
+        to the east reaches the guild halls you decide to leave the excitement of stealing its treasures to young members of the guild. Sometimes it makes you sad.
+        But you are also so proud of your wards.</item>
+        <item>It is supposed to be the best ending, you are rich and the princess is by your side. Delusional fool.
+        The human money is nothing for primitive elven economy. Foreign exchange is not developed here.
+        What is more, the princess is very capricious, she demands expensive jewelery and clothes and hates the woods.
+        You move to the human city, she hates one house - you buy another. But you love her because she is a hard earn trophy.
+        Unfortunately, after five years you run out of money. She soon runs from you to some distant castle. You are broken at first.
+        But people around you talk about an unexplored continent to the east. You decide to become an adventurer once more. The new land awaits!</item>
+        <item>Sometimes you remember the princess horrible death. It haunts you till the end of your days.</item>
+        <item>One more thing, there is lonely kittenball in this world searching for you.</item>
+    </string-array>
+
+    <string-array name="retirement_results_dwarf">
+        <item>You return to the underground dwarven city where you grew up intended to end your life blowing yourself in an abandoned mine.
+        Your experience in the outside world was too cruel for you to bear.</item>
+        <item>You\'ve been an adventurer all of your life and never had a decent job. So your pension is minimum.
+            You don\'t even have money to buy an explosive.</item>
+        <item>So, you start beating yourself with a pick. Good that you forgot to take your helmet off. After a seventh blow to the head you notice a beautiful human lady
+        lustfully staring at you.</item>
+        <item>So, you start channeling deadly spell to kill yourself. Good that your concentration fails you - you notice a beautiful human lady
+        lustfully staring at you.</item>
+        <item>So, you put a knife to your throat. Good that you are too coward to do it. After the fifth attempt you notice a beautiful human lady
+            lustfully staring to you.</item>
+        <item>You fall in love, she appears to be immortal shape-shifter woman with a fetish for dwarves. She likes brewing ale, can take any form you want,
+        she even grows beard from time to time like any decent dwarven woman. You ask her to marry you, she agrees. She was an adventurer too and
+            has enough money so that both of you could not work a single day. But you decide to start a tavern. Soon you will be a happy father. Yes,
+        this is the best \"happily ever after\" ending in this game.</item>
+        <item>Your name is </item>
+        <item>and you are a drunkard too drunk to kill yourself. You spent all of your time at the local tavern surrounded by like-minded people. It is good till it lasts.</item>
+        <item>But you soon spend all your money. Too drunk and depressed about life you die quietly in a gully.</item>
+        <item>And it lasts and it lasts. Cause you\'re rich, boy! And people in the tavern like you, you are their generous god
+            who buy free beer every morning and every evening. One day you see a beautiful human lady lustfully staring at you. You fall in love.
+            And love makes you sober. She appears to be immortal shape-shifter woman with a fetish for dwarves. She likes brewing ale, can take any form you want.
+            You ask her to marry you, she agrees. She was an adventurer too and has enough money so that both of you could not work a single day.
+            Unfortunately, after five years of happiness your heart stops beating weakened by the years of drunkenness.</item>
+        <item>And you are truly rich to buy an explosive. So you go to the distant abandoned mine to kill yourself. There you meet a dwarven lady with a long white beard.
+        It seems she has come here with the same gaul. You fall in love and marry her. At your wedding you explode the mine that could become the grave for
+            both of you. You decide that your children will never visit the surface.</item>
+        <item>Sometimes you remember the princess horrible death. It haunts you till the end of your days.</item>
+        <item>One more thing, there is lonely kittenball in this world searching for you.</item>
+    </string-array>
+</resources>
